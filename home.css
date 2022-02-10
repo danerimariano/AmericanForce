@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Americana;
+    font-size: 105px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+
+    }
+
+#logo_encabezado{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:  15px;
+    left: 10px;
+    }
+
+  /* INICIO CSS PARA FOTO FONDO HOME Y TEXTO HOME */
+    
+h1.titulohome{
+    padding: 50px;
+    text-shadow: 3px 3px black
+    
+
+}
+p.titulohome{
+    display: block;
+    width: 500px;
+    padding-top: 200px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    text-shadow: 1px 1px black
+}
+
+div.home{
+    height: 80vh;
+    width: 100%;
+    background-image: url(/imagenes/homefondo.png);
+    background-size: 100%;
+    position: relative;
+}
+ /* FIN CSS PARA FOTO FONDO HOME Y TEXTO HOME */
+
+ 
+/* INICIO CSS PARA BARRA NAVEGACION */
+
+header.home{
+  width: 100%;
+  display: grid;
+  /* justify-items: end; */
+  place-items:left;
+  /* flex-direction: row-reverse; */
+  nav-left: root;
+  /* right: 100px; */
+  /* text-align: right; */
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(255, 255,1);
+    overflow: hidden;
+    width: 100%;
+    /* grid-template-columns: 100%; */
+    /* display: grid; */
+    /* text-indent: 10%; */
+    /* text-align: center; */
+}
+li{
+    float: left;
+    /* text-align: center; */
+    }
+
+li a{
+    /* display: block; */
+    /* grid-template-columns: 100%; */
+    display: grid;
+    color: black;
+    /* text-align: center; */
+    padding: 50px 50px;
+    font-family: Americana;
+    text-transform: uppercase;
+    text-decoration: none;
+       }
+    
+li a:hover{
+    background-color:white;
+}
+
+/* FIN CSS PARA BARRA NAVEGACION */
+
+
+
+body {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 0; */
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url(/imagenes/fondo.jpg);
+  }
+
+  .person {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .container {
+    border-radius: 50%;
+    height: 273px;
+    -webkit-tap-highlight-color: transparent;
+    transform: scale(0.48);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 400px;
+  }
+  .container:after {
+    background-color: #f2f2f2;
+    content: "";
+    height: 10px;
+    position: absolute;
+    top: 390px;
+    width: 100%;
+  }
+  .container:hover {
+    transform: scale(0.54);
+  }
+  .container-inner {
+    clip-path: path(
+      "M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z"
+    );
+    position: relative;
+    transform-origin: 50%;
+    top: -200px;
+  }
+  .circle {
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 380px;
+    left: 10px;
+    pointer-events: none;
+    position: absolute;
+    top: 210px;
+    width: 380px;
+  }
+  .img {
+    pointer-events: none;
+    position: relative;
+    transform: translateY(20px) scale(1.15);
+    transform-origin: 50% bottom;
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .container:hover .img {
+    transform: translateY(0) scale(1.2);
+  }
+  .img1 {
+    left: 22px;
+    top: 164px;
+    width: 340px;
+  }
+  .img2 {
+    left: -46px;
+    top: 174px;
+    width: 444px;
+  }
+  .img3 {
+    left: -16px;
+    top: 144px;
+    width: 466px;
+  }
+  .divider {
+    background-color: rgb(255, 255, 1);
+    height: 5px;
+    width: 160px;
+  }
+  .name {
+    color: rgb(255, 255, 1);
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 16px;
+    text-align: center;
+    font-family: Americana;
+  }
+  .title {
+    color: rgb(255, 255, 1);
+    font-family: Americana;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+
+  h2.staff{
+      padding-top: 10px;
+      padding-right: 500px;
+      padding-bottom: 5px;
+      padding-left: 450px;
+      text-align: center;
+      color: rgb(255, 255, 1);
+      font-family: Americana;
+      font-size: 45px;
+
+  }
+
+
+/* INICIO FORMULARIO CONTACTO/ASOCIATE */
+
+header.form{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+h3{
+  color: rgb(0, 0, 0);
+  font-family: Americana;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(255, 255, 1);
+  font-size: 25px;
+
+}
+
+  #form{
+    background-color: rgb(255, 255,1); 
+    width: 500px;
+    height: 525px;
+    position: relative;
+    top: 45px;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: OpenSans;
+    font-weight: 800;
+    border: 2px solid rgb(255, 255,1);
+   }
+ .contact label,.contact textarea, .contact select{
+    display: block;
+    width: 100%;
+    border: none;
+    text-indent: 1%;
+}
+#area {
+    display: block;
+    width: 95%;
+    background-color: rgb(255, 255,1);
+    border-bottom: 2px solid black;
+    font-family: OpenSans;    
+    text-indent: 1%;
+}
+
+#boton{
+    display: flex;
+    float: left;
+  }
+
+.contact input:not([type="submit"],[type="reset"]), .contact textarea {
+    border: none;
+    border-bottom: black;
+    margin-bottom: 10px;
+    font-size: 15px;
+    outline: none;
+    color: black;
+    font-family: OpenSans;
+}
+
+input[type="submit"],[type="reset"]{
+    padding: 0px;
+    border-bottom: 2px solid rgb(255, 255,1);
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    font-family: OpenSans;
+}
+
+#actividadform{
+    background-color: rgb(255, 255,1);
+    border-bottom: 2px solid black;
+    font-family: OpenSans;
+}
+
+
+
+
+/* INICIO CSS ACTIVIDADES */
+
+
+
+
+
+
+
+
+
+
+:root{
+  --text-light: rgba(255,255,255,0.6);
+  --text-lighter: rgba(255,255,1,0.9);
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1200px;
+}
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html.actividades{
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+body.actividades{
+  height: 100%;
+}
+
+.hero-section{
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  background-image: url(/imagenes/fondo.jpg);
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+  padding: var(--spacing-xxl) var(--spacing-l);
+}
+
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+}
+
+@media(min-width: 540px){
+  .card-grid{
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media(min-width: 960px){
+  .card-grid{
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+.card{
+  list-style: none;
+  position: relative;
+}
+
+.card:before{
+  content: '';
+  display: block;
+  padding-bottom: 150%;
+  width: 100%;
+}
+
+.card__background{
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--spacing-l);
+  bottom: 0;
+  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: center;
+  transform: scale(1) translateZ(0);
+  transition: 
+    filter 200ms linear,
+    transform 200ms linear;
+}
+
+.card:hover .card__background{
+  transform: scale(1.05) translateZ(0);
+}
+
+.card-grid:hover > .card:not(:hover) .card__background{
+  filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+
+.card__content{
+  left: 0;
+  padding: var(--spacing-l);
+  position: absolute;
+  top: 0;
+}
+
+.card__category{
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-s);
+  text-transform: uppercase;
+}
+
+.card__heading{
+  color: var(--text-lighter);
+  /* font-size: 1.9rem; */
+  text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  /* line-height: 1.4; */
+  word-spacing: 100vw;
+  padding-top: 335px;
+  text-align: left;
+}
+
+h4{
+  color: rgb(0, 0, 0);
+  font-family: Americana;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  text-align: center;
+
+}

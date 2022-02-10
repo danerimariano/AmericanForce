@@ -1,0 +1,12 @@
+@font-face{
+    font-family: Bonkoff;
+src: url(/fonts/Bonkoff.TTF);
+}
+@font-face {
+    font-family: Americana;
+    src: url(/fonts/Americanatest.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(/fonts/opensans.ttf);
+}
