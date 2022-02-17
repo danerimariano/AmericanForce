@@ -483,6 +483,9 @@ h4{
 
 #generic_price_table .generic_content{
 	background-color: #fff;
+  border-radius: 10px;
+  height: 450px;
+  background-color: rgb(255, 255, 1);
 }
 
 #generic_price_table .generic_content .generic_head_price{
@@ -515,6 +518,7 @@ h4{
 
 #generic_price_table .generic_content .generic_feature_list ul li{	
 	color: #a7a7a7;
+  width: 100%;
 }
 
 #generic_price_table .generic_content .generic_feature_list ul li span{
