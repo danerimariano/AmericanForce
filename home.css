@@ -17,7 +17,7 @@ h1{
     height: 100px;
     position: absolute;
     top:  15px;
-    left: 10px;
+    left: 1245px;
     }
 
   /* INICIO CSS PARA FOTO FONDO HOME Y TEXTO HOME */
@@ -863,3 +863,26 @@ h4{
   width: 500px !important;
   height: 500px !important;
 }
+
+
+
+/* INICIO FOOTER */
+
+
+#logofooter, #logowsp{
+  height: 70px;
+  width: 70px;
+}
+
+.footer{
+  display: grid;
+  top: 150px;
+  width: 1349px;
+  height: 80px;
+  /* background-color: yellowgreen; */
+}
+
+/* div.footer{
+  width: 100%;
+  display: block;
+} */
